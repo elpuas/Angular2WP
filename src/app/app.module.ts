@@ -4,15 +4,25 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './partials/navbar/navbar.component';
+import { FooterComponent } from './partials/footer/footer.component';
+import { Wpng2RoutingModule } from './app-routing.module';
+import { HomeComponent } from './partials/home/home.component';
+import { AboutComponent } from './partials/about/about.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    FooterComponent,
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    Wpng2RoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
