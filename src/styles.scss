@@ -2,9 +2,13 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 @import "../node_modules/font-awesome/css/font-awesome.css";
 
-/* You can add global styles to this file, and also import other style files */
-.container {
-  h1 {
-  color: red;
- }
+/* Glob@l Styles */
+
+html,body{
+  height:100%;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
 }
