@@ -1,17 +1,45 @@
 import { Component, OnInit } from '@angular/core';
-
+declare var $: any;
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
 })
+
 
 export class HomeComponent implements OnInit {
 
   constructor() {
+    $( document ).ready(function() {
+      var $item = $('.carousel .item');
+      var $wHeight = $(window).height();
+      $item.eq(0).addClass('active');
+      $item.height($wHeight);
+      $item.addClass('full-screen');
+
+      $('.carousel img').each(function() {
+        var $src = $(this).attr('src');
+        var $color = $(this).attr('data-color');
+        $(this).parent().css({
+          'background-image' : 'url(' + $src + ')',
+          'background-color' : $color
+        });
+        $(this).remove();
+      });
+
+      $(window).on('resize', function (){
+        $wHeight = $(window).height();
+        $item.height($wHeight);
+      });
+
+      $('.carousel').carousel({
+        interval: 6000,
+        pause: "false"
+      });
+        console.log( "ready!" );
+    });
     }
   ngOnInit() {
-  }
-
+ }
 }
