@@ -12,6 +12,7 @@ export class HomeComponent implements OnInit {
 
   constructor() {
     $( document ).ready(function() {
+      $('body').removeClass('portfolio-img');
       var $item = $('.carousel .item');
       var $wHeight = $(window).height();
       $item.eq(0).addClass('active');

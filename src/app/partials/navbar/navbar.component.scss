@@ -1,0 +1,21 @@
+.navbar {
+  .navbar-header {
+    .navbar-brand {
+      display: block;
+      text-indent: -9999px;
+      width: 250px;
+      height: 117px;
+      background: url(/assets/img/logo.svg);
+      background-size: 250px 117px;
+    }
+  }
+  .navbar-collapse {
+    ul.nav {
+      li {
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}

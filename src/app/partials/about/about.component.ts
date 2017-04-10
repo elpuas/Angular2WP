@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare var $: any;
 
 @Component({
   selector: 'app-about',
@@ -7,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
-
+  constructor() {
+    $(document).ready(function() {
+            $('body').removeClass('portfolio-img');
+            $.backstretch('assets/img/about-background-image.jpg');
+          });}
   ngOnInit() {
   }
 
