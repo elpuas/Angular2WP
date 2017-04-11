@@ -3,8 +3,45 @@
 @import "../node_modules/font-awesome/css/font-awesome.css";
 
 /* You can add global styles to this file, and also import other style files */
-.container {
-  h1 {
-  color: red;
- }
+.container-fluid {
+padding-right: 0;
+padding-left: 0;
+}
+
+// Fullimg Background
+
+body.fullimg-background {
+  background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: #999;
+}
+
+// About Page
+
+body.about-img {
+  background: url('assets/img/about-background-image.jpg');
+}
+
+// Desarrollos Page
+
+body.desarrollos-img {
+  background: url('assets/img/desarrollos-background-image.jpg');
+}
+
+// Portfolio Page
+
+body.portfolio-img {
+  background: white;
+  .navbar-brand {
+    background: url(/assets/img/logo-color.svg) !important;
+  }
+  ul.nav {
+    li {
+      a {
+        color: gray !important;
+      }
+    }
+  }
 }

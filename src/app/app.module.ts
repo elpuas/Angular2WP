@@ -9,6 +9,8 @@ import { FooterComponent } from './partials/footer/footer.component';
 import { Wpng2RoutingModule } from './app-routing.module';
 import { HomeComponent } from './partials/home/home.component';
 import { AboutComponent } from './partials/about/about.component';
+import { DesarrollosComponent } from './partials/desarrollos/desarrollos.component';
+import { PortfolioComponent } from './partials/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { AboutComponent } from './partials/about/about.component';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    DesarrollosComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
