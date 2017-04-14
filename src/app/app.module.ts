@@ -11,6 +11,8 @@ import { HomeComponent } from './partials/home/home.component';
 import { AboutComponent } from './partials/about/about.component';
 import { DesarrollosComponent } from './partials/desarrollos/desarrollos.component';
 import { PortfolioComponent } from './partials/portfolio/portfolio.component';
+import { ServiciosComponent } from './partials/servicios/servicios.component';
+import { ContactoComponent } from './partials/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { PortfolioComponent } from './partials/portfolio/portfolio.component';
     HomeComponent,
     AboutComponent,
     DesarrollosComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    ServiciosComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,

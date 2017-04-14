@@ -4,6 +4,8 @@ import { HomeComponent } from './partials/home/home.component';
 import { AboutComponent } from './partials/about/about.component';
 import { DesarrollosComponent } from './partials/desarrollos/desarrollos.component';
 import { PortfolioComponent } from './partials/portfolio/portfolio.component';
+import { ServiciosComponent } from './partials/servicios/servicios.component';
+import { ContactoComponent } from './partials/contacto/contacto.component';
 
 const routes: Routes = [
   {
@@ -24,7 +26,17 @@ const routes: Routes = [
   {
   path:'portfolio',
   component: PortfolioComponent,
-  pathMatch: 'full'  
+  pathMatch: 'full'
+  },
+  {
+  path:'servicios',
+  component: ServiciosComponent,
+  pathMatch: 'full'
+  },
+  {
+  path: 'contacto',
+  component: ContactoComponent,
+  pathMatch: 'full'
   },
 ];
 
