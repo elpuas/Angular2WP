@@ -4,6 +4,7 @@
 
 /* You can add global styles to this file, and also import other style files */
 body {
+   font-family: 'Roboto', sans-serif;
   .container-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -60,9 +61,19 @@ app-footer {
     z-index: 666;
     .container {
       ul.footer-icons {
-        li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            color: white;
+            li {
+              padding: 7px 10px;
+              border: solid 2px white;
+              margin-bottom: 10px;
+              a {
 
-        }
-      }
+              }
+            }
+         }
+
     }
   }
