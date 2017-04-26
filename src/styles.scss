@@ -37,6 +37,25 @@ body.fullimg-background {
 	background-color: #999;
 }
 
+// Slider
+.carousel {
+    ol.carousel-indicators {
+      left:15%;
+      li {
+    border-radius: 0;
+    height: 35px !important;
+      &.active {
+        height: 36px !important;
+        margin-top: -4px;
+      }
+    }
+  }
+}
+
+
+
+
+
 // About Page
 
 /* body.about-img {
