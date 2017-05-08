@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, p {
   }
 }
 
+.navbar-fixed-top {
+    position: absolute;
+  }
+
 
 // Fullimg Background
 
@@ -58,9 +62,6 @@ body.fullimg-background {
 
 // About Page
 
-/* body.about-img {
-  background: url('assets/img/about-background-image.jpg');
-} */
 
 // Desarrollos Page Modals
 
@@ -68,15 +69,17 @@ body.fullimg-background {
 // Portfolio Page
 
 body.portfolio-img {
-  background: white;
+  background: #f1f1f1;
   .navbar-brand {
     background: url(/assets/img/logo-color.png) !important;
     background-size: 250px 117px !important;
+    background-repeat: repeat !important;
   }
   ul.nav {
     li {
       a {
         color: gray !important;
+        text-shadow: none !important;
       }
     }
   }
@@ -88,10 +91,14 @@ body.portfolio-img {
   }
 }
 
+// Servicios Page General
+
+
+
 // Footer
 
 app-footer {
-  position: absolute;
+  position: fixed;
   bottom: 25px;
   width: 50px;
   z-index: 666;

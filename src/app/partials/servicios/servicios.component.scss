@@ -1,3 +1,40 @@
 .row {
   padding-top: 150px;
+  .servicios-content {
+    .col-md-8 {
+      .servicios-tab-content {
+            background-color: rgba(0, 0, 0, 0.43);
+            color: white;
+            padding: 15px;
+        h2 {
+          padding: 0;
+          margin: 0;
+        }
+        p {}
+        ul {
+          list-style: none;
+          li {
+            font-size: 18px;
+            line-height: 3.5rem;
+          }
+        }
+      }
+    }
+    .col-md-4 {
+      .servicios-nav {
+        ul.nav-pills {
+          li {
+            &.active {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.nav-pills>li>a {
+    color: white;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: transparent;
 }
