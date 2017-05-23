@@ -1,3 +1,58 @@
-.row {
-  padding-top: 150px;
-}
+
+    .row {
+      padding-top: 15%;
+      .contacto-content {
+        address ul {
+        padding: 10px;
+        list-style: none;
+        color: white;
+        border: solid;
+        li {
+          margin-bottom: 10px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+      .map {
+        padding: 10px;
+        border: solid white;
+      }
+      .dbio-contact-form {
+        padding: 10px;
+        border: solid white;
+        p {
+          color:white;
+          text-align: center;
+        }
+        input {
+          box-shadow: none;
+          background-color: transparent;
+          border-radius: 0;
+          border: none;
+          border-bottom: solid white 2px;
+          text-shadow: none;
+          color:white;
+        }
+        textarea {
+          background: transparent;
+          border: solid white;
+          color: white;
+          min-height: 335px;
+        }
+        // Placeholder Color
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          color: white;
+        }
+        ::-moz-placeholder { /* Firefox 19+ */
+          color: white;
+        }
+        :-ms-input-placeholder { /* IE 10+ */
+          color: white;
+        }
+        :-moz-placeholder { /* Firefox 18- */
+          color: white;
+        }
+      }
+    }
+  }

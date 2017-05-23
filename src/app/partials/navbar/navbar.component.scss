@@ -1,5 +1,6 @@
 .navbar {
   .navbar-header {
+    padding-top: 25px;
     .navbar-brand {
       display: block;
       text-indent: -9999px;
@@ -15,6 +16,8 @@
         a {
           color: white;
           text-shadow: 1px 0 2px rgba(0, 0, 0, 0.75);
+          text-transform: uppercase;
+          letter-spacing: 2px;
           &:hover, &:active, &visited {
             font-weight: bold;
             background: transparent;
