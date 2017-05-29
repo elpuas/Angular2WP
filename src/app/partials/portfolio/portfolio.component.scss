@@ -1,5 +1,5 @@
 .row {
-  padding-top: 15%;
+  padding-top: 10%;
   .portfolio-content {
     .col-md-4 {
       margin-bottom: 25px;
@@ -20,6 +20,22 @@
           font-size: 1.3rem;
           color: gray;
         }
+      }
+    }
+  }
+}
+.modal-portfolio {
+  width: 60%;
+  .col-md-4 {
+    h3 {
+      font-size: 1.5rem;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+
       }
     }
   }
