@@ -61,6 +61,15 @@ body.fullimg-background {
 
 // Desarrollos Page Modals
 
+.modal-content {
+  background: transparent;
+  .modal-header {
+    background: rgba(255,255,255,0.5);
+  }
+  .modal-body {
+    background-color: white;
+  }
+}
 
 // Portfolio Page
 
