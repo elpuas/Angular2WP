@@ -5,8 +5,14 @@
       margin-bottom: 25px;
       .portfolio-content-box {
         a {
+          display: block;
+          &:hover {
+            background-color: red;
+          }
           cursor: pointer;
-          img {}
+          img {
+
+          }
         }
 
         h2.portfolio-content-title {
@@ -28,7 +34,8 @@
 
 // Modals
 .modal-portfolio {
-  width: 60%;
+  width: 70%;
+
   .col-md-4 {
     h3 {
       font-size: 1.5rem;

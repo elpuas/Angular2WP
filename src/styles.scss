@@ -41,6 +41,10 @@ body.fullimg-background {
 	background-color: #999;
 }
 
+// Navbar
+
+
+
 // Slider
 .carousel {
     ol.carousel-indicators {
@@ -120,5 +124,45 @@ app-footer {
         a {
         }
       }
+    }
+  }
+
+  // Responsive Queries
+
+  @media (max-width: 500px ) {
+
+    a.navbar-brand {
+      margin-left: 15px;
+    }
+
+    ul.nav.navbar-nav.pull-right {
+    float: none !important;
+    }
+
+    app-footer {
+      position: initial;
+    }
+
+    app-footer ul.footer-icons li {
+        display: inline-block;
+        margin-left: 10px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        padding: 0;
+        padding-top: 3px;
+    }
+    .container.about-content, .container.desarrollos-content, .container.portfolio-content, .container.servicios-content, .container.contacto-content {
+    margin-top: 25%;
+    margin-bottom: 25px;
+    }
+    .modal-dialog {
+      width: 92% !important;
+    }
+    .pull-right {
+      float:none !important;
+    }
+    ul.footer-icons {
+    margin-right: 15px;
     }
   }
